@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/home.css">
+        <link rel="stylesheet" href="/styles/common.css">
+        <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    </head>
+    <body background="/images/2.jpg">
+
+        <header id="heading">
+            <h1 id="logo">ScriBBler</h1>
+            <p id="logo2">Explore, Imagine, Create</p>
+
+
+            <button onclick="document.getElementById('id01').style.display='block'" class="button1">Sign Up</button>
+
+            <div id="id01" class="modal">
+                
+                <form class="modal-content">
+                    <div>
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+                        <p class="getstart">Get Started</p>
+                        <hr>
+                    </div>
+                    <div class="form_container">
+                        <label class="l">Name</label>
+                        <br>
+                        <input type="text" placeholder="  Enter your name" required>
+                        <br>
+
+                        <label class="l">Username</label>
+                        <br>
+                        <input type="text" placeholder="  Enter your username" required>
+                        <br>
+
+                        <label class="l">Password</label>
+                        <br>
+                        <input type="password" placeholder="  Enter your password" required>
+                        <br>
+
+                        <label class="l">Confirm Password</label>
+                        <br>
+                        <input type="password" placeholder="  Re-enter your password" required>
+                        <br>
+                    </div>
+                    <div>
+                        <button class="submit">Sign Up</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <button onclick="document.getElementById('id02').style.display='block'" id="button2">Sign In</button>
+
+            <div id="id02" class="modal">
+                <form class="modal-content">
+                    <div>
+                        <span onclick="document.getElementById('id02').style.display='none'" class="close">&times;</span>
+                        <p class="getstart">Welcome Back!</p>
+                        <hr>
+                    </div>
+                    <div class="form_container">
+                        <label class="l">Username</label>
+                        <br>
+                        <input type="text" placeholder="  Enter your username" required>
+                        <br>
+
+                        <label class="l">Password</label>
+                        <br>
+                        <input type="password" placeholder="  Enter your password" required>
+                        <br>
+                    </div>
+                    <div>
+                        <button class="submit">Sign In</button>
+                        <p class="member">Not a member?<span onclick="document.getElementById('id02').style.display='none',document.getElementById('id01').style.display='block'"><span class="link"> Sign Up</span></span></p>
+                    </div>
+                </form>
+            </div>
+        </header>
+
+
+        <div class="middles">
+            <button class="buttons"><a href="./html/postslist.html" target="_blank"><span class="dab" >All Posts</span></a></button>
+
+            
+            <button onclick="document.getElementById('id03').style.display='block'" class="buttons" id="create">Create Post</button>
+
+            <div id="id03" class="modal">
+                <form class="modal-content1">
+                    <div>
+                        <span onclick="document.getElementById('id03').style.display='none'" class="closees">&times;</span>
+                        <p class="get">Pen Your Post</p>
+                        <hr>
+                    </div>
+                    <div class="form_container">
+                        <label class="la1" style="left: 1000%;">Title</label>
+                        <br>
+                        <input class="post" type="text" placeholder="  Enter title of your post">
+                        <br>
+
+                        <label class="la1">Contents</label>
+                        <br>
+                        <textarea class="textbox1"name="mytextarea"placeholder=" Enter the contents of your post"></textarea>
+                        <br>
+                    </div>
+                    <div>
+                        <button class="but">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="/scripts/index.js" async defer></script>
+    </body>
+</html>

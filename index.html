@@ -25,7 +25,7 @@
                         <i class="fa fa-user-plus" aria-hidden="true" style="margin-top: 10%;"></br>Sign Up</i>
                     </div>
                     <div class="flip-card-back">
-                      <h1 style="font-size: 30px;">CLICK HERE</h1>
+                      <h1 style="font-size: 30px;" onclick="document.getElementById('id01').style.display='block'" class="button1">CLICK HERE</h1>
                     </div>
                   </div>
             </div>
@@ -33,10 +33,10 @@
             <div class="icon2 flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front up">
-                        <i class="fa fa-user" aria-hidden="true" style="margin-top: 10%;"></br>Sign In</i>
+                        <i class="fa fa-user" aria-hidden="true" style="margin-top: 10%;" ></br>Sign In</i>
                     </div>
                     <div class="flip-card-back">
-                      <h1 style="font-size: 30px;">CLICK HERE</h1>
+                      <h1 style="font-size: 30px;" onclick="document.getElementById('id02').style.display='block'" id="button2">CLICK HERE</h1>
                     </div>
                   </div>
             </div>
@@ -89,6 +89,67 @@
             <h1>@Copyright 2020 Shagun Agrawal</h1>
         </div>
 
-        <script src="" async defer></script>
+        <div id="id01" class="modal">
+                
+            <form class="modal-content" action="/html/home.html">
+                <div>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+                    <p class="getstart">Get Started</p>
+                    <hr>
+                </div>
+                <div class="form_container">
+                    <label class="l">Name</label>
+                    <br>
+                    <input type="text" placeholder="  Enter your name" required>
+                    <br>
+
+                    <label class="l">Username</label>
+                    <br>
+                    <input type="text" placeholder="  Enter your username" required>
+                    <br>
+
+                    <label class="l">Password</label>
+                    <br>
+                    <input type="password" placeholder="  Enter your password" required>
+                    <br>
+
+                    <label class="l">Confirm Password</label>
+                    <br>
+                    <input type="password" placeholder="  Re-enter your password" required>
+                    <br>
+                </div>
+                <div>
+                    <button class="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="id02" class="modal">
+            <form class="modal-content" action="/html/home.html">
+                <div>
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close">&times;</span>
+                    <p class="getstart">Welcome Back!</p>
+                    <hr>
+                </div>
+                <div class="form_container">
+                    <label class="l">Username</label>
+                    <br>
+                    <input type="text" placeholder="  Enter your username" required>
+                    <br>
+
+                    <label class="l">Password</label>
+                    <br>
+                    <input type="password" placeholder="  Enter your password" required>
+                    <br>
+                </div>
+                <div>
+                    <button class="submit">Sign In</button>
+                    <p class="member">Not a member?<span onclick="document.getElementById('id02').style.display='none',document.getElementById('id01').style.display='block'"><span class="link"> Sign Up</span></span></p>
+                </div>
+            </form>
+        </div>
+
+
+        <script src="./scripts/index.js" async defer></script>
     </body>
 </html>
