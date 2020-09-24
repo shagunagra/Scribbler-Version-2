@@ -15,3 +15,12 @@ window.onclick = function(event) {
         modalB.style.display = "none";      
      }
 }
+
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 100) {
+        $(".heading").addClass("active");
+    } else {
+       $(".heading").removeClass("active");
+    }
+});
