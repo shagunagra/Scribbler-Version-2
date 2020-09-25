@@ -22,6 +22,7 @@ body{
 .head{
     font-size: 50px;
     color: white;
+    margin-top: 20px;
     text-align: center;
     animation: blinkingText 2s infinite;
 }
