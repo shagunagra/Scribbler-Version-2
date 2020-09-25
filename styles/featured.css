@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+#container {
+	text-align: center;
+}
+
+#text {
+	display: inline-block;
+	text-align: center;
+	color:white;
+	font-size: 80px;
+}
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 5px;
+	height: 80px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: white; 
+	}
+}
