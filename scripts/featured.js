@@ -31,7 +31,7 @@ function Type() {
 
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 50);
+			_INTERVAL_VAL = setInterval(Delete, 150);
 		}, 1000);
 	}
 }
@@ -64,4 +64,4 @@ function Delete() {
 }
 
 // Start the typing effect on load
-_INTERVAL_VAL = setInterval(Type, 100);
+_INTERVAL_VAL = setInterval(Type, 150);

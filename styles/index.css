@@ -250,3 +250,7 @@ cursor: pointer;
   color: blue;
   cursor: pointer;
 }
+.flip-card-back a{
+  text-decoration: none;
+  color: black;
+}

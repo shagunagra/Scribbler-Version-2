@@ -33,3 +33,60 @@ body{
 		background-color: white; 
 	}
 }
+.post{
+	height: 20%;
+	font-size: 20px;
+	width: 70%;
+	background-color: darkslategray;
+	color: white;
+	margin-left: 2%;
+	border: 0px;
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 white;
+	transition:0.2s;
+}
+.name{
+	padding: 2%;
+}
+.post:hover{
+	box-shadow: 0 0 60px white;
+	width: 80%;
+}
+.post4{
+	margin-bottom: 3%;
+}
+.nav{
+	transition-duration:0.5s;
+	margin-left: 95.5%;
+	margin-top: -38%;
+	transition: ease 0.5s;
+}
+.facebook a{
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+}
+.whatsapp a{
+	font-size: 50px;
+	color: white;
+}
+.twitter a{
+	font-size: 50px;
+	color: white;
+}
+.linkedin a{
+	font-size: 50px;
+	color: white;
+}
+.fa-facebook-square:hover{
+	font-size: 70px;
+}
+.fa-whatsapp:hover{
+	font-size: 70px;
+}
+.fa-twitter-square:hover{
+	font-size: 70px;
+}
+.fa-linkedin-square:hover{
+	font-size: 70px;
+}
