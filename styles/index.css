@@ -53,7 +53,7 @@ body{
     width: 10%;
     height: 110px;
     border-radius: 8px;
-    margin-top: 19.4%;
+    margin-top: 20.3%;
     margin-left: 0.1%;
     font-size: 30px;
     perspective: 1000px;
@@ -66,7 +66,7 @@ body{
     width: 10%;
     height: 110px;
     border-radius: 8px;
-    margin-top: 26.8%;
+    margin-top: 28.6%;
     margin-left: 0.1%;
     font-size: 30px;
     perspective: 1000px;
@@ -79,7 +79,7 @@ body{
     width: 10%;
     height: 110px;
     border-radius: 8px;
-    margin-top: 34.25%;
+    margin-top: 36.9%;
     margin-left: 0.1%;
     font-size: 30px;
     perspective: 1000px;
@@ -116,7 +116,7 @@ body{
   .content{
       position: absolute;
       margin-top: 15%;
-      width: 40%;
+      width: 43%;
       margin-left: 40%;
   }
   .para{
@@ -128,8 +128,8 @@ body{
       margin-left: 60%;
   }
   .imgs{
-      height: 80%;
-      width: 200%;
+      height: 70%;
+      width: 180%;
       border: 5px solid grey;
   }
   .copy{
@@ -144,12 +144,12 @@ body{
   }
   .content2{
     position: absolute;
-    margin-top: 46%;
-    width: 30%;
+    margin-top: 45%;
+    width: 32%;
     margin-left: 19%;
   }
   .para2{
-    font-size: 30px;
+    font-size: 28px;
   }
   .modal{
     display: none; 
