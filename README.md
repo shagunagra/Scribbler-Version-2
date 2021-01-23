@@ -1,4 +1,4 @@
-# Scribbler-Part-2
+# Scribbler-Version-2
 This website is a blogging website. In this repo i have inserted 4 folders:
 
 Image
